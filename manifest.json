@@ -4,7 +4,7 @@
     "description":"Blocks ads on various video streaming sites",
     "content_scripts": [
         {
-        "matches":["https://static.crunchyroll.com/vilos-v2/web/vilos/player.html"],
+        "matches":["https://static.crunchyroll.com/vilos-v2/web/vilos/player.html?*"],
         "all_frames": true,
         "js": ["crblk.js"]
         },

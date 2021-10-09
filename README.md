@@ -19,7 +19,7 @@ Funimation appears to use a similar ad service to Crunchyroll, but without the a
 
 ## Installation Instructions
 1. Clone the repo
-2. Goto [chrome://extensions](chrome://extensions)
+2. Goto chrome://extensions
 3. Enable `Developer Mode`
 4. Click `Load Unpacked`
 5. Select the repo folder

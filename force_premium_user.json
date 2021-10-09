@@ -6,7 +6,7 @@
         "urlFilter": "https://static.crunchyroll.com/vilos-v2/web/vilos/js/bundle.js"
     },
     "action": {
-        "redirect": {"extensionPath": "/bundle.js"},
+        "redirect": {"extensionPath": "/crbundle.js"},
         "type": "redirect"
     }
 }]

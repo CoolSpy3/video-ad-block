@@ -31,7 +31,7 @@
     ],
     "web_accessible_resources": [
         {
-            "resources": [ "bundle.js" ],
+            "resources": [ "crbundle.js" ],
             "matches": [ "<all_urls>" ]
         }
     ],

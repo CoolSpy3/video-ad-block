@@ -1,0 +1,12 @@
+[{
+    "id": 1,
+    "priority": 20,
+    "condition": {
+        "resourceTypes": ["main_frame", "sub_frame", "script", "object", "xmlhttprequest", "other"],
+        "urlFilter": "https://static.crunchyroll.com/vilos-v2/web/vilos/js/bundle.js"
+    },
+    "action": {
+        "redirect": {"extensionPath": "/bundle.js"},
+        "type": "redirect"
+    }
+}]

@@ -1,0 +1,39 @@
+{
+    "name":"Video Ad Blocker",
+    "version":"1.0.0",
+    "description":"Blocks ads on various video streaming sites",
+    "content_scripts": [
+        {
+        "matches":["https://static.crunchyroll.com/vilos-v2/web/vilos/player.html"],
+        "all_frames": true,
+        "js": ["crblk.js"]
+        },
+        {
+        "matches":["*://www.funimation.com/v/*"],
+        "all_frames": true,
+        "js": ["funblk.js"]
+        }
+    ],
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "force_premium_user",
+                "enabled": true,
+                "path": "force_premium_user.json"
+            }
+        ]
+    },
+    "host_permissions": [
+        "*://*.crunchyroll.com/*"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [ "bundle.js" ],
+            "matches": [ "<all_urls>" ]
+        }
+    ],
+    "manifest_version":3
+}

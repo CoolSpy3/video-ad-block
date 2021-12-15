@@ -9,9 +9,9 @@
         "js": ["crblk.js"]
         },
         {
-        "matches":["*://www.funimation.com/v/*"],
+        "matches":["*://www.funimation.com/v/*", "*://www.hidive.com/stream/*", "*://www.hidive.com/embed/*"],
         "all_frames": true,
-        "js": ["funblk.js"]
+        "js": ["blk.js"]
         }
     ],
     "permissions": [

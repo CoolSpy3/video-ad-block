@@ -11,7 +11,7 @@ Removes ads on various video streaming sites.
   - When a change occurs, check for any `<video>`s and dispatch `new Event('ended')`
   - This simulates the ad having run to completion
 
-### Funimation
+### Funimation / Hidive
 Funimation appears to use a similar ad service to Crunchyroll, but without the added overhead of requiring custom JavaScript to trigger.
 1. Detect changes in the DOM
   - When a change occurs, check for any `<video>`s and dispatch `new Event('ended')`
